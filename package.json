@@ -1,0 +1,13 @@
+{
+  "name": "ai-interviewer",
+  "version": "1.0.0",
+  "description": "AI Interviewer System - MERN Stack",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm start",
+    "start:server": "cd server && npm start"
+  },
+  "keywords": ["mern", "ai", "interview", "gemini"],
+  "license": "MIT"
+}
